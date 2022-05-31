@@ -10,7 +10,7 @@ import {Profile} from "./components/Profile/Profile"
 function AllRoutes() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<MainPage></MainPage>}></Route>
         <Route path="/:category" element={<MainPage ></MainPage>} ></Route>
@@ -20,7 +20,7 @@ function AllRoutes() {
         <Route path="/watchlist" element={<WatchList/>}></Route>
         <Route path="/profile" element={<Profile/>}></Route>
       </Routes>
-      <Footer></Footer>
+      <Footer/>
     </>
   );
 }

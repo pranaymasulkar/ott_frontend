@@ -51,11 +51,12 @@ function Navbar() {
         <div className="nav-left">
           <div>
             <Link to="/">
-              <img
+              {/* <img
                 className="disney-img"
                 src="https://secure-media.hotstarext.com/web-assets/prod/images/brand-logos/disney-hotstar-logo-dark.svg"
                 alt=""
-                />
+                /> */}
+                <h1>OTT PLATFORM</h1>
             </Link>
           </div>
 
